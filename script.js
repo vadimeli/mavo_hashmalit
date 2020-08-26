@@ -734,7 +734,7 @@ var myPlayer = amp('vid1', { /* Options */
 );
 
 myPlayer.src([{
-    src: "https://lomdot-lomdot-euwe.streaming.media.azure.net/2643eb8e-480a-4c81-9b75-c4e90855cb8f/main_movie.ism/manifest",
+    src: "https://lomdot-lomdot-euwe.streaming.media.azure.net/5a678976-91bd-4332-afaf-06f522b69b3e/main_movie_HfalaHashmalit.ism/manifest",
     type: "application/vnd.ms-sstr+xml"
 }]);
 
