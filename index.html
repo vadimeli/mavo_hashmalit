@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+
+    <!--<link href="video_js/video-js.css" rel="stylesheet" />-->
+
+    <link href="//amp.azure.net/libs/amp/latest/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src= "//amp.azure.net/libs/amp/latest/azuremediaplayer.min.js"></script>
+
+</head>
+<body dir="rtl">
+
+
+<div class="main-wrapper">
+    <div class="wrapper">
+        <div class="enter-screen">
+            <img src="assets/images/open_screen.jpg" />
+        </div>
+        <div id="vid-1">
+            <!--<video playsinline onseeking="onSeekingFunction()"-->
+                   <!--id="my-video"-->
+                   <!--class="video-js"-->
+                   <!--controls-->
+                   <!--preload="auto"-->
+                   <!--data-setup="{}"-->
+                   <!--onended="mainVideoEnded()"-->
+            <!--&gt;-->
+                <!--<source src="./assets/video/main_movie.mp4" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2" />-->
+            <!--</video>-->
+
+            <video id="vid1" class="azuremediaplayer amp-default-skin" playsinline>
+                <source src="https://lomdot-lomdot-euwe.streaming.media.azure.net/5a678976-91bd-4332-afaf-06f522b69b3e/main_movie_HfalaHashmalit.ism/manifest" type="application/vnd.ms-sstr+xml" />
+                <!--<p class="amp-no-js">-->
+                <!--</p>-->
+            </video>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="question-1">
+    <div>
+        <div>
+            <div class="q-title">מה ההבדל בין הפעלה קרבית להפעלה חשמלית?</div>
+            <div class="answers">
+                <div data-answer="true"><span>הפעלה קרבית מופעלת בטווח קרוב למטען והפעלה חשמלית מופעלת בטווח רחוק מהמטען</span></div>
+                <div data-answer="false"><span>בהפעלה קרבית משתמשים בלבנות חבלה והפעלה חשמלית משתמשים בנפץ חשמלי בלבד</span></div>
+            </div>
+        </div>
+        <!--<img class="close-q" src="assets/images/x.png" data-question="1" data-answered="false" />-->
+        <span class="next-q" data-question="1" data-answered="false">המשך</span>
+    </div>
+</div>
+
+
+<div class="question-2">
+    <div>
+        <div>
+            <div class="q-title">בעת הרמת מנוף PRIME, המיני שרייק יבצע בדיקת תקינות באופן עצמאי. כיצד נבצע את הבדיקה</div>
+            <div class="answers">
+                <div data-answer="true"><span>נלחץ על כפתור TEST ונמתין לקבלת הבהוב ירוק</span></div>
+                <div data-answer="false"><span>נלחץ על כפתור TEST ונמתין לקבלת הבהוב ירוק ולאחר מכן נלחץ על כפתור READY ונמתין לקבלת הבהוב אדום</span></div>
+            </div>
+        </div>
+        <!--<img class="close-q" src="assets/images/x.png" data-question="2" data-answered="false" />-->
+        <span class="next-q" data-question="2" data-answered="false">המשך</span>
+    </div>
+</div>
+
+
+<div class="question-3">
+    <div>
+        <div>
+            <div class="q-title">בחר את סדר הפעולות הנכון להפעלת מיני שרייק</div>
+            <div class="answers">
+                <div data-answer="false"><span>לחיצה על כפתור TEST ולחיצה על כפתור FIRE בו"ז >> הרמת מנוף >> בדיקת מעגל חשמלי TEST</span></div>
+                <div data-answer="false"><span>בדיקת מעגל חשמלי TEST >> לחיצה על כפתור TEST ולחיצה על כפתור FIRE בו"ז >> הרמת מנוף</span></div>
+                <div data-answer="true"><span>הרמת מנוף >> בדיקת מעגל חשמלי TEST >> לחיצה על כפתור TEST ולחיצה על כפתור FIRE בו"ז</span></div>
+                <div data-answer="false"><span>לחיצה על כפתור TEST ולחיצה על כפתור FIRE בו"ז >> בדיקת מעגל חשמלי TEST >> הרמת מנוף</span></div>
+            </div>
+        </div>
+        <!--<img class="close-q" src="assets/images/x.png" data-question="3" data-answered="false" />-->
+        <span class="next-q" data-question="3" data-answered="false">המשך</span>
+    </div>
+</div>
+
+
+<div class="question-4">
+    <div>
+        <div>
+            <div class="q-title">גרור את הפריטים למקום המתאים בטבלה</div>
+            <div class="table-wrap">
+                <div>
+                    <span>תיאור התקלה</span>
+                    <span>גורם ל...</span>
+                    <span>שם התקלה</span>
+                    <span>סוג התיל</span>
+                </div>
+                <div>
+                    <span>קרע פנימי בסיבי הנחושת שמרכיבים את התיל</span>
+                    <span class="droppable" data-name="big"><span>מונע סגירת מעגל חשמלי</span></span>
+                    <span class="droppable" data-name="small"><span>נתק</span></span>
+                    <span class="droppable" data-name="high"><span>חד גידי</span></span>
+                </div>
+                <div>
+                    <span>מגע פנימי בין חוטי הנחושת שבשני התילים</span>
+                    <span class="droppable" data-name="medium"><span>סוגר את המעגל החשמלי במקום לא רצוי</span></span>
+                    <span class="droppable" data-name="smaller"><span>קצר</span></span>
+                    <span class="droppable" data-name="low"><span>דו גידי וחד גידי</span></span>
+                </div>
+            </div>
+
+            <div class="buttons-container">
+                <span class="check-answer">לבדיקה</span>
+                <span class="correct-answer">לצפייה בתשובה הנכונה</span>
+                <span class="next-q" data-question="4" data-answered="false">המשך</span>
+            </div>
+
+            <div class="answers">
+                <span class="draggable" data-name="high" data-answer="false" data-spot="false">חד גידי</span>
+                <span class="draggable" data-name="smaller" data-answer="false" data-spot="false">קצר</span>
+                <span class="draggable" data-name="medium" data-answer="false" data-spot="false">סוגר את המעגל החשמלי במקום לא רצוי</span>
+                <span class="draggable" data-name="big" data-answer="false" data-spot="false">מונע סגירת מעגל חשמלי</span>
+                <span class="draggable" data-name="small" data-answer="false" data-spot="false">נתק</span>
+                <span class="draggable" data-name="low" data-answer="false" data-spot="false">דו גידי וחד גידי</span>
+
+                <!--<div class="check-answer">לבדיקה</div>-->
+                <!--<div class="correct-answer">לצפייה בתשובה הנכונה</div>-->
+            </div>
+
+        </div>
+        <!--<img class="close-q" src="assets/images/x.png" data-question="4" data-answered="false" />-->
+    </div>
+</div>
+
+
+
+
+<div class="question-5">
+    <div>
+        <div>
+            <div class="q-title">גרור את הפריטים למקום המתאים בטבלה</div>
+            <div class="table-wrap">
+                <div>
+                    <span>שם התקלה</span>
+                    <span>האם לקצר?</span>
+                    <span>מעגל חשמלי</span>
+                    <span>אם תקין, נראה אור ירוק?</span>
+                </div>
+                <div>
+                    <span>נתק</span>
+                    <span class="droppable-5" data-name="yes"><span>כן</span></span>
+                    <span class="droppable-5" data-name="close"><span>סגור</span></span>
+                    <span class="droppable-5" data-name="yes"><span>כן</span></span>
+                </div>
+                <div>
+                    <span>קצר</span>
+                    <span class="droppable-5" data-name="no"><span>לא</span></span>
+                    <span class="droppable-5" data-name="open"><span>פתוח</span></span>
+                    <span class="droppable-5" data-name="no"><span>לא</span></span>
+                </div>
+            </div>
+
+            <div class="buttons-container">
+                <span class="check-answer">לבדיקה</span>
+                <span class="correct-answer">לצפייה בתשובה הנכונה</span>
+                <span class="next-q" data-question="5" data-answered="false">המשך</span>
+            </div>
+
+            <div class="answers">
+                <span class="draggable-5" data-name="yes" data-answer="false" data-spot="false">כן</span>
+                <span class="draggable-5" data-name="open" data-answer="false" data-spot="false">פתוח</span>
+                <span class="draggable-5" data-name="close" data-answer="false" data-spot="false">סגור</span>
+                <span class="draggable-5" data-name="no" data-answer="false" data-spot="false">לא</span>
+                <span class="draggable-5" data-name="no" data-answer="false" data-spot="false">לא</span>
+                <span class="draggable-5" data-name="yes" data-answer="false" data-spot="false">כן</span>
+
+                <!--<div class="check-answer">לבדיקה</div>-->
+                <!--<div class="correct-answer">לצפייה בתשובה הנכונה</div>-->
+            </div>
+
+        </div>
+        <!--<img class="close-q" src="assets/images/x.png" data-question="5" data-answered="false" />-->
+    </div>
+</div>
+
+
+
+
+<div class="question-6">
+    <div>
+        <div>
+            <div class="q-title">כיצד נימנע מהשראה חשמלית?</div>
+            <div class="answers">
+                <div data-answer="true" data-marked="false"><span>נרחיק מכשירים חשמליים למרחק של 30 מ' לפחות מהמערכת החשמלית</span></div>
+                <div data-answer="true" data-marked="false"><span>נשמור על קצוות התילים מכוסים במעטפת הפלסטיק, עד לחיבורם</span></div>
+                <div data-answer="true" data-marked="false"><span>נקפיד על קיצור התילים בכל שלב</span></div>
+                <div data-answer="true" data-marked="false"><span>נחבר את הנפץ החשמלי לתילים, טרם חיבורם למערכת החבלה</span></div>
+            </div>
+        </div>
+        <!--<img class="close-q" src="assets/images/x.png" data-question="6" data-answered="false" />-->
+        <span class="next-q" data-question="6" data-answered="false">המשך</span>
+        <span class="check-q-6">לבדיקה</span>
+    </div>
+</div>
+
+
+
+<div class="question-7">
+    <div>
+        <div>
+            <div class="q-title">באיזה מעגל חשמלי "כל אחד הוא לעצמו"?</div>
+            <div class="answers">
+                <div data-answer="false"><span>מעגל בטור</span></div>
+                <div data-answer="true"><span>מעגל במקביל</span></div>
+            </div>
+        </div>
+        <!--<img class="close-q" src="assets/images/x.png" data-question="7" data-answered="false" />-->
+        <span class="next-q" data-question="7" data-answered="false">המשך</span>
+    </div>
+</div>
+
+
+<div class="question-8">
+    <div>
+        <div>
+            <div class="q-title">כמה זמן יש להמתין עד שניתן יהיה להתקרב למטען שלא התפוצץ?</div>
+            <div class="answers">
+                <div data-answer="true"><span>15 דקות</span></div>
+                <div data-answer="false"><span>5 דקות</span></div>
+            </div>
+        </div>
+        <!--<img class="close-q" src="assets/images/x.png" data-question="8" data-answered="false" />-->
+        <span class="next-q" data-question="8" data-answered="false">המשך</span>
+    </div>
+</div>
+
+
+<div class="question-9">
+    <div>
+        <div>
+            <div class="q-title">בהפעלה חשמלית נעלה בקשר, לאחר שנקבל א' לפסל נתחיל לספור לאחור עד 6 ואז נעצור ונוריד אצבע מהקשר. מדוע?</div>
+            <div class="answers">
+                <div data-answer="false"><span>שנאפשר לכוחותינו להתרחק במקרה והם עדיין לא במרחב הביטחון</span></div>
+                <div data-answer="true"><span>שנוכל לשמוע את פקודת "חדל" במקרה הצורך</span></div>
+            </div>
+        </div>
+        <!--<img class="close-q" src="assets/images/x.png" data-question="9" data-answered="false" />-->
+        <span class="next-q" data-question="9" data-answered="false">המשך</span>
+    </div>
+</div>
+
+
+
+
+
+<div class="credits">
+    <img src="assets/images/credit.png" />
+</div>
+
+
+
+<script src="video_js/video.js"></script>
+
+<script src="jquery/jquery.js"></script>
+<script src="jquery/jquery-ui.js"></script>
+<script src="jquery/jquery.ui.touch-punch.min.js"></script>
+
+
+
+<!--<script src="droppable/droppable.js"></script>-->
+
+
+<script src="script.js"></script>
+</body>
+</html>
