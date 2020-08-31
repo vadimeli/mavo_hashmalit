@@ -717,7 +717,7 @@ var myPlayer = amp('vid1', { /* Options */
         controls: true,
         // width: "100%",
         // height: "auto",
-        poster: ""
+        poster: "./assets/images/loading.gif"
     }, function() {
         console.log('Good to go!');
         // add an event listener
