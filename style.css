@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: Assistant;
+    background-color: #000000;
+    font-family: 'Assistant', sans-serif;
 }
 
 .main-wrapper {
@@ -60,8 +61,8 @@ body {
 
 
 
-/*!* Loading *!*/
-.amp-default-skin .vjs-loading-spinner {
+/*!*!* Loading *!*!*/
+.amp-default-skin .vjs-waiting .vjs-loading-spinner {
     display: block;
 }
 
