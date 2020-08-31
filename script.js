@@ -717,7 +717,7 @@ var myPlayer = amp('vid1', { /* Options */
         controls: true,
         // width: "100%",
         // height: "auto",
-        poster: "./assets/images/loading.gif"
+        poster: ""
     }, function() {
         console.log('Good to go!');
         // add an event listener
@@ -730,6 +730,11 @@ var myPlayer = amp('vid1', { /* Options */
             console.log('seeking!');
             onSeekingFunction();
         });
+    this.addEventListener('playing', function() {
+        console.log('NOW!!');
+        $(".my-loading").css('display', 'none');
+
+    });
     }
 );
 
