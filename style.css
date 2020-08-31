@@ -61,10 +61,10 @@ body {
 
 
 
-/*!*!* Loading *!*!*/
-.amp-default-skin .vjs-waiting .vjs-loading-spinner {
-    display: block;
-}
+/*!*!*!* Loading *!*!*!*/
+/*.amp-default-skin .vjs-waiting .vjs-loading-spinner, .amp-default-skin .vjs-seeking .vjs-loading-spinner {*/
+    /*display: block;*/
+/*}*/
 
 
 

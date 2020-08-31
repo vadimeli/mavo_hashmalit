@@ -733,7 +733,12 @@ var myPlayer = amp('vid1', { /* Options */
 
         this.addEventListener('playing', function() {
             console.log('playing!');
-            $(".amp-default-skin .vjs-waiting .vjs-loading-spinner").css('display', 'none');
+            $(".amp-default-skin .vjs-loading-spinner").css('display', 'none');
+        });
+
+        this.addEventListener('waiting', function() {
+            console.log('waiting!');
+            $(".amp-default-skin .vjs-waiting .vjs-loading-spinner").css('display', 'block');
         });
 
     }
