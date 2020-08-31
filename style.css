@@ -60,13 +60,11 @@ body {
 
 
 
-/* Loading */
-.my-loading {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
+/*!* Loading *!*/
+.amp-default-skin .vjs-loading-spinner {
+    display: block;
 }
+
 
 
 
